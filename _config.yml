@@ -2,8 +2,8 @@ title: Math 584, Fall 2020
 email: "zteitler@boisestate.edu"
 description: >- # this means to ignore newlines until "baseurl:"
   Course site for Math 584, Fall 2020, at Boise State University, taught by Zach Teitler
-url: "https://zteitler.github.io/2020C-584" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://zteitler.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/2020C-584" # the subpath of your site, e.g. /blog
 #twitter_username: jekyllrb
 github_username:  zteitler
 
