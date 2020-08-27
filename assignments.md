@@ -11,7 +11,7 @@ title: Assignments
 
 {% for homework in hwbydue -%}
 
-| [{{ homework.title }}]({{site.baseurl}}/{{ homework.url }}) | Due: {{ homework.duedate | date_to_string: "ordinal", "US"  }} |
+| [{{ homework.title }}]({{site.baseurl}}{{ homework.url }}) | Due: {{ homework.duedate | date_to_string: "ordinal", "US"  }} |
 {% endfor %}
 
 
@@ -21,7 +21,7 @@ title: Assignments
 
 {% for paper in papersbydue -%}
 
-| [{{ paper.title }}]({{ site.baseurl }}/{{ paper.url }}) | Due: {{ paper.duedate | date_to_string: "ordinal", "US"  }} |
+| [{{ paper.title }}]({{ site.baseurl }}{{ paper.url }}) | Due: {{ paper.duedate | date_to_string: "ordinal", "US"  }} |
 {% endfor %}
 
 
