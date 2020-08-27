@@ -11,7 +11,7 @@ title: Assignments
 
 {% for homework in hwbydue %}
 
-[{{ homework.title }}]({{ homework.url }})
+[{{ homework.title }}]({{site.baseurl}}/{{ homework.url }})
 Due: {{ homework.duedate | date_to_string: "ordinal", "US"  }}
 
 {% endfor %}
