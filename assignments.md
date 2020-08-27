@@ -7,13 +7,21 @@ title: Assignments
 
 ### Homework
 
-{% assign hwbydue = site.hw | sort: "duedate" | reverse %}
+{% assign hwbydue = site.hw | sort: "duedate" %}
 
-{% for homework in hwbydue %}
+{% for homework in hwbydue -%}
 
-[{{ homework.title }}]({{site.baseurl}}/{{ homework.url }})
-Due: {{ homework.duedate | date_to_string: "ordinal", "US"  }}
+| [{{ homework.title }}]({{site.baseurl}}/{{ homework.url }}) | Due: {{ homework.duedate | date_to_string: "ordinal", "US"  }} |
+{% endfor %}
 
+
+### Papers
+
+{% assign papersbydue = site.papers | sort: "duedate" %}
+
+{% for paper in papersbydue -%}
+
+| [{{ paper.title }}]({{ site.baseurl }}/{{ paper.url }}) | Due: {{ paper.duedate | date_to_string: "ordinal", "US"  }} |
 {% endfor %}
 
 

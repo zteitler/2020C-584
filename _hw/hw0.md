@@ -1,12 +1,8 @@
 ---
-layout: page
+layout: assignment
 title: Homework 0
 duedate: 2020-09-02
 ---
-
-## Homework 0
-
-_Due Wednesday, Sept 2, 11:59pm_
 
 This homework will be about using LaTeX to create a PDF,
 and uploading that PDF to [BlackBoard](https://blackboard.boisestate.edu).
@@ -34,56 +30,56 @@ Please find and use the LaTeX template uploaded to BlackBoard and/or course webs
 
 1. (LaTeX: basics) Answer this question. Enter this LaTeX code into your tex file, and answer it:
 
-```
-\begin{exer}
-What are the intersection $\{1,2,3,4,5\} \cap \{3,4,5,6,7\}$
-and the union $\{1,2,3,4,5\} \cup \{3,4,5,6,7\}$?
-\end{exer}
-\begin{answer}
--enter your answer here-
-\end{answer}
-```
+    ```
+    \begin{exer}
+    What are the intersection $\{1,2,3,4,5\} \cap \{3,4,5,6,7\}$
+    and the union $\{1,2,3,4,5\} \cup \{3,4,5,6,7\}$?
+    \end{exer}
+    \begin{answer}
+    -enter your answer here-
+    \end{answer}
+    ```
 
 
 2. (LaTeX: Using "split" to align equations) Complete this simplification.
 Enter this LaTeX code into your tex file, and answer it (fill in the ?'s):
 
-```
-\newpage
-\begin{exer}
-What is the sum of the squares of $\dfrac{1-t^2}{1+t^2}$ and $\dfrac{2t}{1+t^2}$?
-\end{exer}
-\begin{answer}
-\begin{theorem}
-$\left(\dfrac{1-t^2}{1+t^2}\right)^2 + \left(\dfrac{2t}{1+t^2}\right)^2 = ? $
-\end{f}
-\begin{proof}
-\begin{equation}
-\begin{split}
-  \left(\frac{1-t^2}{1+t^2}\right)^2 + \left(\frac{2t}{1+t^2}\right)^2 &= ? \\
-    &= ? \\
-    &= ? \\
-    &= ?
-\end{split}
-\end{equation}
-\end{proof}
-\end{answer}
-```
+    ```
+    \newpage
+    \begin{exer}
+    What is the sum of the squares of $\dfrac{1-t^2}{1+t^2}$ and $\dfrac{2t}{1+t^2}$?
+    \end{exer}
+    \begin{answer}
+    \begin{theorem}
+    $\left(\dfrac{1-t^2}{1+t^2}\right)^2 + \left(\dfrac{2t}{1+t^2}\right)^2 = ? $
+    \end{f}
+    \begin{proof}
+    \begin{equation}
+    \begin{split}
+      \left(\frac{1-t^2}{1+t^2}\right)^2 + \left(\frac{2t}{1+t^2}\right)^2 &= ? \\
+        &= ? \\
+        &= ? \\
+        &= ?
+    \end{split}
+    \end{equation}
+    \end{proof}
+    \end{answer}
+    ```
 
 3. (About yourself) Answer the questions.
-This will not be graded for correctness.
-The goal is just to tell me a little bit about yourself
-(and also to practice using LaTeX's enumerate lists).
+  This will not be graded for correctness.
+  The goal is just to tell me a little bit about yourself
+  (and also to practice using LaTeX's enumerate lists).
 
-```
-\newpage
-\begin{exer}
-\begin{enumerate}
-\item What name do you like to go by in class?
-\item What pronouns do you prefer (this could be she/her/hers, he/him/his, they/them/theirs, or other)?
-\item What is something that you are excited to learn in this class?
-\item What is something that you are concerned about in this class?
-\item Is there anything else you would like me to know?
-\end{enumerate}
-\end{exer}
-```
+    ```
+    \newpage
+    \begin{exer}
+    \begin{enumerate}
+    \item What name do you like to go by in class?
+    \item What pronouns do you prefer (this could be she/her/hers, he/him/his, they/them/theirs, or other)?
+    \item What is something that you are excited to learn in this class?
+    \item What is something that you are concerned about in this class?
+    \item Is there anything else you would like me to know?
+    \end{enumerate}
+    \end{exer}
+    ```

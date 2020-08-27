@@ -28,6 +28,8 @@ header_pages:
 collections:
   hw:
     output: true
+  papers:
+    output: true
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
