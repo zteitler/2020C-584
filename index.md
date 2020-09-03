@@ -1,9 +1,10 @@
 ---
-layout: page
+layout: frontpage
 title: Math 584, Fall 2020
+coursename: "Selected Topics: Computational Algebra"
+featureimage: crixxi.jpg
+featureimage-alt: "crixxi singular surface"
 ---
-
-## Math 584, Fall 2020
 
 ### Course description
 
