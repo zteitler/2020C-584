@@ -24,7 +24,7 @@ In this assignment, write as much of your short paper as possible.
 + Include at least one fully written section, specifically the section
   that contains the main result or main conjecture.
 + At this first-draft stage it is acceptable to have a partial or empty introduction.
-+ Include a bibliography. See [How To Bibliography](assets/how-to-bibliography.pdf) (pdf).
++ Include a bibliography. See [How To Bibliography]({{ "/assets/how-to-bibliography.pdf" | relative_url }}) (pdf).
   (You might only have one or two sources.
   That's okay.
   Part of the purpose is to learn how to write a bibliography.)
