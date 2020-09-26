@@ -14,3 +14,9 @@ title: Additional Resources
 ### Nonlinear algebra, algebraic geometry:
 
 - [Invitation to Nonlinear Algebra](https://personal-homepages.mis.mpg.de/michalek/NonLinearAlgebra.pdf), by Mateusz Michałek and Bernd Sturmfels
+
+### Macaulay2
+
+- [Web Interface for Macaulay2](https://www.unimelb-macaulay2.cloud.edu.au/)
+at University of Melbourne set up by Paul Zinn-Justin
+- [Macaulay2 home page](http://macaulay.com)
