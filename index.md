@@ -19,4 +19,6 @@ polynomial rings, particularly methods based on Gröbner bases.
 
 ### [Assignments](assignments)
 
+### [Exams](exams)
+
 ### [Additional Resources](resources)
